@@ -1,0 +1,17 @@
+/*General*/
+.container{ max-width: 550px;text-align: center;margin: 0 auto;height: 100%;position: relative;}
+
+main .wrapper{margin: 2% 0}
+main .wrapper .container .boxArea{margin-bottom: 2%}
+main .wrapper .container .boxArea .box{position: relative;width: 100px;height: 100px;display: inline-block;vertical-align: top;border:1px solid #000;background-color: #000;margin-bottom: 5px;margin-right: 0.5%;margin-left: 0.5%;; -webkit-transition: all 0.2s ease-out;transition: all 0.2s ease-out}
+main .wrapper .container .boxArea .box .letter{position: absolute;top: 30%;left: 0;right: 0;font-size: 50px;text-transform: uppercase;}
+main .wrapper .container .percentArea{margin-bottom: 3%}
+main .wrapper .container .percentArea .rangeBar{width: 300px;height: 20px;border: 1px solid transparent;margin: 0 auto 1%;background-color: #e0e0e0;border-radius: 20px;}
+main .wrapper .container .percentArea .rangeBar .rangeFill{width: 0%;background-color: #16a085;height: 20px;border-radius: 20px;-webkit-transition: all 0.2s ease-out;transition: all 0.2s ease-out}
+main .wrapper .container .inputArea .letterInput{text-transform: uppercase;width: 295px;height: 25px;font-size: 17px;text-indent: 5px;display: block;margin: 0 auto 1%;border-width: 0;border: 3px solid;border-color: rgba(191, 192, 195, 0.5);border-radius: 4px;}
+main .wrapper .container .inputArea .letterInput:focus{border-color: #bfc0c3}
+main .wrapper .container .inputArea .reset{-webkit-transition: all 0.2s ease-out;transition: all 0.2s ease-out;display: inline-block;padding: 10px 20px;cursor: pointer;background-color: #304252;color: #fff;border-radius: 4px;}
+main .wrapper .container .inputArea .errorMessage{display: none;color:red;font-weight: bold;margin-bottom: 1%}
+
+main .wrapper .container .boxArea .box.active{background-color: #fff}
+main .wrapper .container .boxArea .box.limit{border: 1px solid red;}

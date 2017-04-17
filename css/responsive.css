@@ -1,0 +1,16 @@
+/*Responsive*/
+
+/*hover*/
+@media (min-width: 768px) {
+	main .wrapper .container .inputArea .reset:hover{background-color: #03A9F4;color: #000}
+}
+
+@media (max-width: 551px) {
+	main .wrapper .container .boxArea .box{width: 18%;height: 85px}
+}
+
+@media (max-width: 450px) {
+	main .wrapper .container{padding: 10px}
+	main .wrapper .container .boxArea .box{width: 18%;height: 65px}	
+	main .wrapper .container .boxArea .box .letter{font-size: 30px}
+}

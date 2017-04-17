@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!--created by  Mehmet Emre Kılıç -->
+	<meta charset="UTF-8">
+	<title>Boxes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Development CSS 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    -->
+
+    <!--Production CSS -->
+    <link rel="stylesheet" href="css/compiled.min.css">
+
+</head>
+<body>
+
+<main>
+	<div class="wrapper">
+		<div class="container">
+			<div id="boxArea" class="boxArea"> </div>
+
+			<div class="percentArea">
+				<div class="rangeBar">
+					<div id="rangeFill" class="rangeFill"></div>
+				</div>
+				<p>Karakter Doluluk Orani %<span id="percent">0</span></p>
+			</div>
+			
+			<div class="inputArea">
+				<input type='text' class='letterInput' id='letterInput' maxlength="25">
+				<p id="errorMessage" class="errorMessage">Yeterli Kutu Kalmadı!!</p>
+				<a class="reset" id="resetButton">Sıfırla</a>
+			</div>
+		</div>
+	</div>
+</main>
+
+
+<!--Development JS 
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/main.js"></script>
+-->
+
+<!--Production JS -->
+<script src="js/compiled.js"></script>
+
+
+</body>
+</html>
